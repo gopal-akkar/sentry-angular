@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myApp';
+  throwError() {
+    throw new Error("custom error");
+  }
 }
+
